@@ -23,7 +23,7 @@ Enter the code for admin.py and models.py
 Execute Django admin and create details for 10 books
 
 ## PROGRAM
-
+```
 admin.py
 
 from django.contrib import admin 
@@ -44,6 +44,7 @@ class  Movie_DB(models.Model):
 
 class Movie_DBAdmin(admin.ModelAdmin): 
     list_display = ('Movie_ID', 'Title', 'Genre', 'Rating', 'Language', 'Release_Date') 
+```
 
 ## OUTPUT
 ![alt text](<Screenshot 2025-04-15 222618.png>)
